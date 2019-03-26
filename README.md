@@ -1,1 +1,3 @@
-# qf47demo
+# Demo Demo Demo
+
+Simple ASP.Net Core application.
