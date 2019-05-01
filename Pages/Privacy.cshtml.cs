@@ -11,7 +11,6 @@ namespace qf47demo.Pages
     {
         public void OnGet()
         {           
-            throw new Exception("Argg!");
         }
     }
 }
