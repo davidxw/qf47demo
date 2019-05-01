@@ -11,7 +11,8 @@ namespace qf47demo.Pages
     {
         public void OnGet()
         {
-
+            System.Diagnostics.Trace.TraceError("Fake error from index page");
+            System.Diagnostics.Trace.TraceWarning("Fake warning from index page");
         }
     }
 }
