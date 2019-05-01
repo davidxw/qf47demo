@@ -13,6 +13,8 @@ namespace qf47demo.Pages
         {
             System.Diagnostics.Trace.TraceError("Fake error from privacy page");
             System.Diagnostics.Trace.TraceWarning("Fake warning from privacy page");
+            
+            throw new Exception("Argg!");
         }
     }
 }
