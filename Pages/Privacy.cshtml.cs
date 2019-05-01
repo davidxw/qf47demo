@@ -11,6 +11,7 @@ namespace qf47demo.Pages
     {
         public void OnGet()
         {
+            System.Diagnostics.Trace.TraceError("Fake error from privacy page");
         }
     }
 }
